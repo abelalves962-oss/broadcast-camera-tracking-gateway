@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cam4TrackingMonitor", "Cam4TrackingMonitor\Cam4TrackingMonitor.csproj", "{E2EEE89A-7149-40D1-8A36-CB559546F172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cam4TrackingMonitor.Tests", "Cam4TrackingMonitor.Tests\Cam4TrackingMonitor.Tests.csproj", "{77377121-B15B-4588-88AD-2C5AD7A8561A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2EEE89A-7149-40D1-8A36-CB559546F172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EEE89A-7149-40D1-8A36-CB559546F172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EEE89A-7149-40D1-8A36-CB559546F172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EEE89A-7149-40D1-8A36-CB559546F172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77377121-B15B-4588-88AD-2C5AD7A8561A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77377121-B15B-4588-88AD-2C5AD7A8561A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77377121-B15B-4588-88AD-2C5AD7A8561A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77377121-B15B-4588-88AD-2C5AD7A8561A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

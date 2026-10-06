@@ -1,0 +1,19 @@
+﻿<Application x:Class="Cam4TrackingMonitor.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Cam4TrackingMonitor"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml"/>
+                <ResourceDictionary Source="Resources/Styles/Controls.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource SurfaceBackgroundColor}"/>
+            <SolidColorBrush x:Key="PanelBrush" Color="{StaticResource CardBackgroundColor}"/>
+            <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}"/>
+            <SolidColorBrush x:Key="TextBrush" Color="{StaticResource TextPrimaryColor}"/>
+            <SolidColorBrush x:Key="MutedBrush" Color="{StaticResource TextSecondaryColor}"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
